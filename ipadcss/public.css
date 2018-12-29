@@ -1,0 +1,49 @@
+.logo{
+	display: none;
+}
+.nav{
+	width: 100%;
+}
+.rotation_chart .swiper-pagination-bullet{
+	height: 5vw;
+}
+.rotation_chart .swiper-pagination-bullets{
+	padding: 0;
+}
+.product_show{
+	width: 50%;
+}
+.big_banner{
+	margin-top: 11vw;
+}
+.bottom_banner{
+	margin-top: 6vw;
+}
+.info_more{
+	font-size: 12px;
+}
+.bot_mid > div:first-child>div:first-child{
+	width: 19rem;
+}
+.alices>div>div:nth-child(2),.alices>div>div:nth-child(3){
+	float: left;
+}
+.bot_mid{
+	width: 88%;
+}
+.next_page{
+	display: none;
+}
+.pages>div:last-child{
+	width: 5rem !important;
+}
+.col_list{
+	margin-top: 8%;
+	height: 61vw;
+}
+#page{
+	margin-top: 4vw;
+}
+.col_img{
+	height: 42%;	
+}

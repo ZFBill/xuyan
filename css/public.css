@@ -8,6 +8,7 @@
     box-sizing: border-box; 
     margin: 0;
     padding: 0;
+    
 }
 body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td {margin:0;padding:0;font-family: "微软雅黑";} 
 table {border-collapse:collapse;border-spacing:0;} 
@@ -18,6 +19,61 @@ caption,th {text-align:left}
 h1,h2,h3,h4,h5,h6 {font-size:100%;font-weight:normal} 
 q:before,q:after {content:''} 
 abbr,acronym { border:0}
+input{background:none;outline:none;border:0px;}
+select{
+	outline: 0;
+}
+input::-webkit-input-placeholder {
+	color: white;
+}
+
+input::-moz-placeholder {
+	/* Mozilla Firefox 19+ */
+	color: white;
+}
+
+input:-moz-placeholder {
+	/* Mozilla Firefox 4 to 18 */
+	color: white;
+}
+
+input:-ms-input-placeholder {
+	/* Internet Explorer 10-11 */
+	color: white;
+}
+.gray{
+	color: rgb(144,144,144);
+}
+.selected_search {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    outline: none;
+}
+.selected_search select{
+    background: transparent;
+    border:none;
+    outline: none;
+}
+.noselect{
+	-webkit-touch-callout: none; /* iOS Safari */
+
+	-webkit-user-select: none; /* Chrome/Safari/Opera */
+	
+	-khtml-user-select: none; /* Konqueror */
+	
+	-moz-user-select: none; /* Firefox */
+	
+	-ms-user-select: none; /* Internet Explorer/Edge */
+	
+	user-select: none; /* Non-prefixed version, currently
+	
+	not supported by any browser */
+}
+.of_one{
+	overflow: hidden;/*超出部分隐藏*/
+    white-space: nowrap;/*不换行*/
+    text-overflow:ellipsis;/*超出部分文字以...显示*/
+}
 .co_wt{
 	color: white;
 }
@@ -39,15 +95,16 @@ abbr,acronym { border:0}
 .fs_18{
 	font-size: 18px;
 }
+.fs_20{
+	font-size: 20px;
+}
 .fs_1125{
 	font-size: 1.125rem;
 }
 .udl{
 	border-bottom: 1px solid white;
 }
-.hidden{
-	display: none;
-}
+
 .ofh{
 	overflow: hidden;
 }
@@ -60,7 +117,249 @@ abbr,acronym { border:0}
 
 	
 }
-
+.hidden{
+	display: none;
+}
+.hand{
+	cursor: pointer;
+}
+.black{
+	color: black;
+}
+.hover_content > li{
+	cursor: pointer;
+}
+.rotate{
+	transform:rotate(180deg);
+	-ms-transform:rotate(180deg); /* Internet Explorer */
+	-moz-transform:rotate(180deg); /* Firefox */
+	-webkit-transform:rotate(180deg); /* Safari 和 Chrome */
+	-o-transform:rotate(180deg); /* Opera */
+}
+.bettwen{
+	justify-content: space-between;
+}
+.wrap{
+	flex-wrap: wrap;
+	
+}
 .fb{
 	font-weight: bold;
+}
+.pink{
+	color: rgb(214,161,194);
+}
+.white{
+	color: white;
+}
+.bg_white{
+	background-color: white;
+}
+.bg_pink{
+	background-color: rgb(214,161,194);
+}
+.border{
+	border: 1px solid rgb(226,226,226);
+}
+.bgc_243{
+	background-color: rgb(243,243,243);
+}
+
+.type_page{
+	width: 68vw;
+	margin: 0 auto;
+}
+.product_list{
+	cursor: pointer;
+}
+/*头部*/
+
+.navs {
+	position: relative;
+}
+
+.top {
+	background-color: rgb(215, 161, 195);
+}
+
+.top_type {
+	width: 68%;
+	margin: 0 auto;
+	height: 8.4vw;
+	line-height: 8.4vw;
+}
+
+.logo {
+	height: 100%;
+}
+
+.logo_img {
+	height: 100%;
+	background-image: url(../img/logo.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.nav {
+	width: 74%;
+	height: 100%;
+	justify-content: space-between;
+}
+
+.nav>div {
+	height: 70%;
+	cursor: pointer;
+}
+
+
+/*悬停页*/
+
+.hover_page {
+	background-color: rgba(255, 255, 255, 0.8);
+	z-index: 2;
+	position: absolute;
+	top: 8.4vw;
+	left: 0;
+	width: 100%;
+}
+
+.hover_type {
+	width: 67%;
+	height: 16vw;
+	margin: 0 auto;
+}
+
+.hover_art {
+	width: 20%;
+	height: 100%;
+}
+
+.hover_title {
+	padding-top: 10%;
+	height: 26%;
+	border-bottom: 1px solid rgb(231, 232, 233);
+	color: black;
+}
+
+.hover_content {
+	flex-direction: column;
+	justify-content: space-around;
+	height: 50%;
+	margin-top: 10%;
+}
+
+.hover_imgs {
+	width: 60%;
+	height: 80%;
+	margin-top: 2.4%;
+	justify-content: space-between;
+}
+
+.hover_imgs>div {
+	width: 31.8%;
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.hover_img01 {
+	background-image: url(../img/hover01.png);
+}
+
+.hover_img02 {
+	background-image: url(../img/hover02.png);
+}
+
+.hover_img03 {
+	background-image: url(../img/hover03.png);
+}
+
+.hover_content>li:hover {
+	color: rgb(214, 161, 194);
+}
+
+
+/*底部信息*/
+
+.bottom {
+	height: 32rem;
+	width: 100%;
+	padding-top: 6vw;
+}
+
+.bot_mid {
+	width: 68%;
+	margin: 0 auto;
+}
+
+.alices>div {
+	width: 44%;
+	margin-bottom: 0.6rem;
+}
+
+.media_plat {
+	margin-bottom: 1rem;
+}
+
+.alices_img {
+	width: 2.5rem;
+	height: 2.5rem;
+	border-radius: 6px;
+	background-image: url(../img/weibo.png);
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-position: center;
+	margin-right: 0.4rem;
+}
+
+.brand_intro{
+	width: 20rem;
+}
+.intro_title{
+	font-size: 18px;
+	margin-bottom: 1rem;
+}
+
+.brand_intro > div > div{
+	margin-bottom: 0.4rem;
+}
+.brand_intro > div > div:hover{
+	cursor: pointer;
+	text-decoration: underline;
+	opacity: 0.8;
+}
+
+#product_code {
+	border-bottom: 1px solid white;
+	color: white;
+}
+
+
+.search_now{
+	width: 5rem;
+	height: 2.5rem;
+	line-height: 2.5rem;
+	background-color: rgba(244,185,207,0.6);
+	cursor: pointer;
+	
+}
+.button_hover{
+	background-color: rgba(249,232,242,1);
+}
+.policy{
+	margin-top: 0.6rem;
+	
+}
+.policy > a{
+	color: white;
+	
+}
+.bottom_logo{
+	width: 6.25rem;
+	height: 2.5rem;
+	background-image: url(../img/logo.png);
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-position: center;
 }

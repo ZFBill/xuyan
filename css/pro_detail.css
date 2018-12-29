@@ -1,0 +1,151 @@
+.pro_display {
+	height: 40vw;
+	width: 100%;
+}
+
+.zoom {
+	width: 36.5vw;
+	height: 36.5vw;
+	display: inline-block;
+	cursor: pointer;
+}
+#target{
+        position: absolute;
+        left: 300px;
+        top: 0;
+        width: 40vw;
+        height: 40vw;
+        border: 1px solid #666;
+        visibility: hidden;
+}
+
+/*放大镜css*/
+.imgbox {
+	position:relative;
+	
+}
+.probox {
+	width:36.5vw;
+	height:36.5vw;
+	
+}
+.probox img {
+	width:36.5vw;
+	height:36.5vw;
+	vertical-align:top;
+}
+.showbox {
+	display:none;
+	position:absolute;
+	left: 100%;
+	top:0;
+	width:400px;
+	height:300px;
+	overflow:hidden;
+	border:1px solid #ccc;
+}
+.showbox img {
+	position:absolute;
+	height:146vw;
+	width:146vw;
+}
+.hoverbox {
+	display:none;
+	position:absolute;
+	top:0;
+	background:#09f;
+	border:1px solid #09f;
+	height:75px;
+	width:100px;
+	cursor:move;
+	z-index:10;
+}
+
+/*放大镜css结束*/
+
+.intro_arts{
+	width: 26vw;
+}
+.des_title,.ins_title{
+	padding: 0.8rem 0;
+	border-bottom: 1px solid rgb(229,229,229);
+	border-top: 1px solid rgb(229,229,229);
+}
+.des_art,.ins_art{
+	padding: 1.875rem 0;
+}
+.to_house{
+	margin-top: 6.25rem;
+	
+}
+.supplement{
+	width: 100%;
+	height: 136vw;
+	background-image: url(../img/supplement.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.line{
+	border: 1px solid rgb(229,229,229);
+	margin-bottom: 5rem;
+}
+
+
+
+.product_img {
+	width: 15vw;
+	height: 15vw;
+	background-image: url(../img/product_noHover.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.brightness {
+	-webkit-filter: brightness(0.8);
+	-moz-filter: brightness(0.8);
+	-ms-filter: brightness(0.8);
+	-o-filter: brightness(0.8);
+	filter: brightness(0.8);
+}
+.product_lists {
+	padding-bottom: 5rem;
+	border-bottom: 1px solid rgb(231,232,233);
+}
+
+.pro_type_lists > div:hover{
+	background-color: rgb(231,232,233);
+}
+.pro_sort_lists > span{
+	margin-left: 2.5rem;
+}
+.pro_sort_lists > div:hover{
+	background-color: rgb(231,232,233);
+}
+.product_list {
+	display: inline-block;
+	width: 15vw;
+	margin-top: 3.75rem;
+}
+
+.product_name {
+	margin-top: 1rem;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+
+.product_content {
+	border-bottom: 2px solid rgb(237, 237, 237);
+	padding-bottom: 1rem;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+
+.product_weight {
+	margin-top: 1rem;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}

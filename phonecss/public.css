@@ -1,0 +1,172 @@
+body{
+	font-size: 14px;
+}
+input::-webkit-input-placeholder {
+       
+       font-size: 12px;
+    }
+
+.logo{
+	display: none;
+}
+.top_type{
+	height: 3rem;
+	line-height: 1rem;
+	padding-top: 0.4rem;
+}
+.nav{
+	width: 100%;
+	flex-wrap: wrap;
+	font-size: 12px;
+	justify-content: flex-start;
+}
+
+.nav>div{
+	height: 45%;
+	margin-left: 1rem;
+}
+.rotation_chart .swiper-pagination-bullets{
+	display: none;
+}
+.product_show{
+	width: 100%;
+	font-size: 14px
+}
+.product{
+	padding-top: 0;
+}
+.left_arr, .right_arr{
+	height: 2.2rem;
+	margin-top: 0;
+}
+.product_name {
+	font-size: 14px;
+}
+.product_content{
+	font-size: 12px;
+}
+.info {
+	font-size: 12px;
+	margin-bottom: 4rem;
+}
+
+.info_more{
+	display: none;
+}
+.info_title{
+	margin: 0.6rem 0;
+}
+.more_detail{
+	height: 1rem;
+	line-height: 0.8rem;
+	width: 8rem;
+	margin-left: -4rem;
+}
+.banner_arr{
+	margin-top: 2%;
+}
+.bot_mid{
+	width: 80%;
+	
+}
+
+.bot_mid>div:first-child{
+	flex-wrap: wrap;
+	padding-bottom: 0 !important;
+	border: 0 !important;
+}
+.bot_mid>div:last-child{
+	padding-top: 0.8rem !important;
+}
+.bottom {
+	font-size: 14px;
+}
+.mid_path {
+	font-size: 12px;
+}
+.see_more {
+	width: 44%;
+}
+.new_info{
+	margin-bottom: 2rem;
+}
+.bottom_logo{
+	display: none;
+}
+.pro_head{
+	padding:  1rem 0;
+}
+.product_list{
+	margin-top: 1rem;
+	width: 20vw;
+}
+.product_name{
+	margin-top: 0.4rem;
+}
+.product_content{
+	padding-bottom: 0.4rem;
+}
+.product_weight{
+	margin-top: 0.4rem;
+}
+.product_lists{
+	padding-bottom: 2rem;
+}
+.product_weight{
+	font-size: 12px;
+}
+#page{
+	margin-top: 1rem;
+	font-size: 12px;
+}
+#page>div:first-child{
+	display: none;
+}
+.next_page{
+	display: none;
+}
+
+.pages{
+	width: 100% !important;
+}
+.pages>div:last-child{
+	width: 4.8rem !important;
+}
+
+.searchs{
+	width: 90%;
+}
+.store{
+	width: 45%;
+}
+.store_loc:before, .clock:before, .phone_num:before{
+	left: -1rem;
+}
+.cut_line{
+	margin-bottom: 2rem;
+}
+.show_img2{
+	margin-bottom: 2rem;
+}
+.col_title,.col_list >div>div:nth-child(3),.col_intros{
+	overflow: hidden;/*超出部分隐藏*/
+    white-space: nowrap;/*不换行*/
+    text-overflow:ellipsis;/*超出部分文字以...显示*/
+}
+.col_check{
+	width: 5rem;
+	margin-top: 1rem;
+}
+.mid_path {
+	font-size: 12px ;
+}
+.see_info{
+	width: 8rem;
+	margin-top: 1rem;
+}
+.col_title{
+	margin: 0.4rem 0;
+}
+.line{
+	margin-bottom: 2rem;
+}

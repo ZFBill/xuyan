@@ -1,0 +1,92 @@
+.mid_path{
+	height: 4.2vw;
+	line-height: 4.2vw;
+	padding-left: 16vw;
+	background-color: rgb(246,246,246);
+}
+.video_win{
+	height: 17.7vw;
+	position: relative;
+	background-image: url(../img/info_list4.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+	
+}
+.video_win:hover{
+	opacity:0.4;
+    filter:alpha(opacity=40);
+}
+.see_more:hover{
+	color: rgb(214,161,194);
+}
+.video_hover{
+	position: absolute;
+	top: 50%;
+	margin-top: -1.5625vw;
+	left: 50%;
+	margin-left: -1.5625vw;	
+	width: 3.125vw;
+	height: 3.125vw;
+	background-image: url(../img/video_hover.png);
+	
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.line{
+	border-bottom: 1px solid rgb(231,232,233);
+	margin-top: 5.2vw;
+	margin-bottom: 4.2vw;
+}
+
+/*底部资讯css*/
+
+.new_img{
+	width: 100%;
+	height: 12.5vw;
+	background-image: url(../img/new_img01.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.new_check{
+	border: 1px solid rgb(229,229,229);
+	width: 100%;
+	height: 1.875rem;
+	line-height: 1.875rem;
+}
+
+/*视频播放*/
+
+.video_play{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 3;
+	background-color: rgba(0,0,0,0.6);
+}
+.play_window{
+	position: fixed;
+	top: 50%;
+	margin-top: -144px;
+	left: 50%;
+	margin-left: -242px;
+}
+
+.close{
+	position: fixed;
+	border-radius: 50%;
+	top: 50%;
+	margin-top: -180px;
+	right: 50%;
+	margin-right: -350px;
+	width: 2rem;
+	height: 2rem;
+	background-image: url(../img/close.jpg);
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+}

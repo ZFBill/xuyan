@@ -1,0 +1,114 @@
+.pro_img{
+	width: 100%;
+	height: 31vw;
+	background-image: url(../img/pro_img.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.pro_head{ 
+	padding: 5rem 0 1.625rem 0;
+	border-bottom: 1px solid rgb(231,232,233);
+}
+
+.pro_type,.pro_sort{
+	cursor: pointer; 
+	-webkit-user-select:none;
+	-moz-user-select:none;
+	-ms-user-select:none;
+	user-select:none
+}
+
+
+.product_img {
+	width: 15vw;
+	height: 15vw;
+	background-image: url(../img/product_noHover.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.brightness {
+	-webkit-filter: brightness(0.8);
+	-moz-filter: brightness(0.8);
+	-ms-filter: brightness(0.8);
+	-o-filter: brightness(0.8);
+	filter: brightness(0.8);
+}
+.product_lists {
+	padding-bottom: 5rem;
+	border-bottom: 1px solid rgb(231,232,233);
+}
+
+.pro_type_lists > div:hover{
+	background-color: rgb(231,232,233);
+}
+.pro_sort_lists > span{
+	margin-left: 2.5rem;
+}
+.pro_sort_lists > div:hover{
+	background-color: rgb(231,232,233);
+}
+.product_list {
+	display: inline-block;
+	width: 15vw;
+	margin-top: 3.75rem;
+}
+
+.product_name {
+	margin-top: 1rem;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+
+.product_content {
+	border-bottom: 2px solid rgb(237, 237, 237);
+	padding-bottom: 1rem;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+
+.product_weight {
+	margin-top: 1rem;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+
+
+#page{
+	line-height: 40px;
+	margin-bottom: 5.2vw;
+	margin-top: 2.5rem;
+}
+.pages>div{
+	
+	height: 40px;
+	line-height: 40px;
+	cursor: pointer;
+	
+}
+
+.page_nums{
+	width: 22rem;
+}
+.page_nums>div{
+	width: 12%;
+	text-align: center;
+	background-color:rgb(243,243,243);
+}
+.page_nums>div:hover{
+	background-color: rgb(215,215,215);
+}
+.next_page{
+	background-color:rgb(243,243,243);
+	padding: 0 0.4rem;
+}
+.to_page{
+	
+	width: 2.64rem;
+	height: 100%;
+	background-color:rgb(243,243,243);
+}

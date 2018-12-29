@@ -1,0 +1,69 @@
+.mid_path{
+	height: 4.2vw;
+	line-height: 4.2vw;
+	padding-left: 16vw;
+	background-color: rgb(246,246,246);
+}
+.media_column{
+	width: 68%;
+	margin: 0 auto;
+}
+.col_list{
+	height: 36vw;
+	margin-top: 6.25%;
+	
+   
+}
+.col_title{
+	margin:1.4rem 0 2.4rem 0;
+}
+.col_check{
+	width: 7.5rem;
+	height: 1.875rem;
+	line-height: 1.875rem;	
+	margin-top: 2rem;
+}
+.col_img{
+	width: 100%;
+	height: 57%;
+	background-image: url(../img/col_img01.png);
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.col_check{
+	cursor: pointer;
+}
+#page{
+	line-height: 40px;
+	margin-bottom: 5.2vw;
+}
+.pages>div{
+	
+	height: 40px;
+	line-height: 40px;
+	cursor: pointer;
+	
+}
+
+.page_nums{
+	width: 22rem;
+}
+.page_nums>div{
+	width: 12%;
+	text-align: center;
+	background-color:rgb(243,243,243);
+}
+.page_nums>div:hover{
+	background-color: rgb(215,215,215);
+}
+.next_page{
+	background-color:rgb(243,243,243);
+	padding: 0 0.4rem;
+}
+.to_page{
+	
+	width: 2.64rem;
+	height: 100%;
+	background-color:rgb(243,243,243);
+}
